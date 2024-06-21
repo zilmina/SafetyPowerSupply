@@ -1,0 +1,105 @@
+\documentclass[twocolumn,10pt,notitlepage,a4paper]{jsarticle}
+
+\usepackage[top=20truemm,bottom=23truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{ascmac}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{subfig}
+
+
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+
+\makeatletter
+
+\title{Report:〇〇〇〇〇〇に関する報告}
+\date{〇〇年〇〇月〇〇日}
+\author{川瀬 廣明}
+\def\@id{2032032}
+\def\@email{kawase@uec.ac.jp}
+
+
+\def\hrulefill{\leavevmode\leaders\hrule height 1pt\hfill\kern 0pt}
+
+\def\maketitle{%
+	\vspace{-6.5mm}
+	\begin{flushright}
+		{\small \@date}
+	\end{flushright}
+	\vspace{-1.5eM}
+	\hrulefill
+	\vspace{-1eM}
+ 	\begin{flushright}
+		{\small 〇〇 Control $\times$ 〇〇 System}
+	\end{flushright}
+	\begin{center}
+		\textsf{\large \@title}
+	\end{center}\par%
+	\begin{flushright}
+		\begin{minipage}{122.9mm}
+		\end{minipage}
+	\end{flushright}\par%
+	\vspace{-1eM}
+	\hrulefill
+	\vspace{1eM}
+}
+
+\footskip=22pt
+
+\makeatother
+
+\fancypagestyle{footpage}{%
+	\fancyhead{}
+	\fancyfoot{}
+	\fancyfoot[L]{}
+	\fancyfoot[C]{}
+	\fancyfoot[R]{\small \thepage}
+	\renewcommand\headrulewidth{0pt}
+}
+
+\titleformat*{\section}{\fontsize{11pt}{0pt}\selectfont\bfseries}
+
+\renewcommand{\baselinestretch}{.75}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Table.}
+
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{Table.~\ref{#1}}
+\newcommand{\Algoref}[1]{Algorithm.~\ref{#1}}
+
+\newcommand{\Gen}{\mathsf{Gen}}
+\newcommand{\Enc}{\mathsf{Enc}}
+\newcommand{\Dec}{\mathsf{Dec}}
+\newcommand{\pk}{\mathsf{pk}}
+\newcommand{\sk}{\mathsf{sk}}
+\newcommand{\Ecd}{\mathsf{Ecd}}
+\newcommand{\Dcd}{\mathsf{Dcd}}
+
+% \renewcommand{\algorithmicrequire}{\textbf{Input:}}
+% \renewcommand{\algorithmicensure}{\textbf{Output:}}
+\algnewcommand{\Agent}[2]{%
+  \State \textbf{#1:}
+  \State \hspace*{\algorithmicindent}\parbox[t]{0.8\linewidth}{\raggedright #2}
+}
+\begin{document}
+
+\pagestyle{footpage}
+\twocolumn[\maketitle]
+
+\section{問題設定}
+
+\section{シミュレーション}
+
+\section{問題点}
+
+\subsection{誤差}
+
+\subsection{〇〇が隠せない}
+
+
+\end{document}

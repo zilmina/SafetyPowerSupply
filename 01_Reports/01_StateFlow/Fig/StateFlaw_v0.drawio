@@ -1,0 +1,178 @@
+<mxfile host="65bd71144e">
+    <diagram id="T0cMwJeNwZY2U5f5cAKi" name="ページ1">
+        <mxGraphModel dx="1072" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="TwinCAT Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="317.5" y="200" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Ready to Operation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="302.5" y="250" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Led_Green turn on&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5">
+                    <mxGeometry y="20" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=elbowEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="8" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="305"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="8" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Is RUN pushed?" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="312.5" y="320" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="No&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="437.5" y="320" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="360" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="15" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Error: Safety Assertion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="532.5" y="400" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Led_Green turn off&lt;br&gt;LED_Red is flashing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="15">
+                    <mxGeometry y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;strokeWidth=2;elbow=vertical;" edge="1" parent="1" source="18" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;html=1;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="18" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="603" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Is Reset pushed?" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="320" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="No&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="320" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="300" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="24" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Pre Operation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="297.5" y="400" width="155" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Led_Green turn off&lt;br&gt;Led_Red turn off&lt;br&gt;InOperation turn on" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry y="20" width="155" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Ack  Operation Starts to SafetySYS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="263.75" y="500" width="222.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="bStart turn on for 0.5 sec" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="30">
+                    <mxGeometry y="20" width="222.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="35" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="642" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Is Reset pushed?" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="312.5" y="852" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="36" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="In Operation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="291" y="662" width="168" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Led_Green blinks slowly&lt;br&gt;Led_Red turn off&lt;br&gt;InOperation turn on&lt;br&gt;(Operate experimental codes)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="36">
+                    <mxGeometry y="20" width="168" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="31" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Post Operation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="283" y="932" width="184" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Led_Green is flashing&lt;br&gt;Led_Red turn off&lt;br&gt;(Actuartor moves to safe posiiton)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="39">
+                    <mxGeometry y="20" width="184" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="41" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="41" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="600" y="670"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Is _EMG on?" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="312.5" y="772" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="No&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="427.5" y="772" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="822" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="902" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="40" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="630"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="No&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="272.5" y="852" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="55" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;" edge="1" parent="1" source="55" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="595"/>
+                            <mxPoint x="240" y="275"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="Is Enable on?" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="312.5" y="570" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="No&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="272.5" y="570" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="610" width="40" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

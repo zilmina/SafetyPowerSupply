@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Safety_Relay")(type "KiCad")(uri "/Users/kawasehiroaki/Desktop/Almina/0d_Libs/01_KiCad/OpenSchematicsForPLCs/0c_Pilz/Safety_Relay.kicad_sym")(options "")(descr ""))
+  (lib (name "EtherCAT_Terminal")(type "KiCad")(uri "/Users/kawasehiroaki/Desktop/Almina/0d_Libs/01_KiCad/OpenSchematicsForPLCs/0a_Beckhoff/EtherCAT_Terminal.kicad_sym")(options "")(descr ""))
+)
