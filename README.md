@@ -63,7 +63,7 @@
 
 ## 回路図と接続図
 
-![回路図](02_Drawings/01_SafetyEStop/Versions/v0.0.1.pdf)
+![回路図](02_Drawings/01_SafetyEStop/Versions/v1.0.0.pdf)
 
 ## 免責事項
 
